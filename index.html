@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Visiter notre Ferme</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>VISITER NOTRE FERME</h1>
+        <p class="bienvenue"> Bienvenue dans notre ferme! Nous sommes très heureux de vous accueillir parmi nous </p>
+    </header>
+
+    <section>
+        <h2>Informations sur les horaires</h2>
+        <ul>
+            <li>Lundi - Vendredi : 8h - 15h</li>
+            <li>Samedi : 10h - 16h</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Tarifs d'entrée</h2>
+        <ul>
+            <li>Enfant (5 à 10 ans) : 500 F</li>
+            <li>Ados (11 à 25 ans) : 1000 F</li>
+            <li>Adulte : 1500 F</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Formulaire de réservation en ligne</h2>
+        <form>
+            <p>Nom : <br> <input type="text" name="nom"></p>
+            <p>Prénom : <br> <input type="text" name="prenom"></p>
+            <p>Âge : <br> <input type="number" name="age"></p>
+            <p>Adresse mail : <br> <input type="email" name="email"></p>
+            
+            <p>Serez-vous accompagné ?<br>
+               <input type="radio" name="acc" value="oui"> Oui
+               <input type="radio" name="acc" value="non"> Non
+            </p>
+
+<p>Si oui, précisez l'âge des personnes qui vous accompagnent : <br>
+   <input type="text" name="ages_ordre" >
+</p>
+
+            <p>Nombre total de personnes : <br> <input type="number" name="total"></p>
+            
+            <input type="submit" value="Valider la réservation">
+        </form>
+    </section>
+
+    <section class="avis-section">
+        <h2>Avis des visiteurs</h2>
+        <p>Nom et prénom : <br> <input type="text"></p>
+        <p>Entrez votre commentaire : <br>
+           <textarea rows="4" cols="30"></textarea>
+        </p>
+        <button type="button">Envoyer mon avis</button>
+    </section>
+
+</body>
+</html>
